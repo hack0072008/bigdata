@@ -27,8 +27,7 @@
   mkdir -p /tmp/tensorflow_pkg
   bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 
-    注(解决错误：error: invalid command 'bdist_wheel')：
-    http://www.cnblogs.com/BugQiang/archive/2015/08/22/4732991.html
+    注[解决错误：error: invalid command 'bdist_wheel'](http://www.cnblogs.com/BugQiang/archive/2015/08/22/4732991.html)
     i>
     pip install setuptools --upgrade
     or
